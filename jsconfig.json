@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./renderer/src/*"
+      ],
+      "@img/*": [
+        "./renderer/src/assets/images/*"
+      ],
+      "@icon/*": [
+        "./renderer/src/assets/icons/*"
+      ],
+      "@main/*": [
+        "./main/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "out"
+  ]
+}
